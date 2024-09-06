@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>İnputs types</title>
+</head>
+
+<body>
+    <h2>Registrstion form:</h2>
+    <form method="post">
+        <div>Ad Soyad: <input type="text" /></div>
+        <div>Doğum ili <input type="number" min="1998" max="2012"></div>
+        <fieldset>
+            <legend>Cinsiyyət:</legend>
+            <label><input name="sex" type="radio">Kişi</label>
+            <label><input name="sex" type="radio">Qadın</label>
+            <label><input name="sex" type="radio">Hər ikisi</label>
+        </fieldset>
+        <div>
+            Doğum yeri:
+            <select>
+                <option selected="selected">Azərbaycan</option>
+                <option>Türkiyə</option>
+                <option>İtalya</option>
+                <option>Fransa</option>
+            </select>
+        </div>
+        <div>
+            Yaşayış yeri: <input list="City" />
+            <datalist id="City">
+                <option selected="selected">Bakı</option>
+                <option>Gəncə</option>
+                <option>Quba</option>
+                <option>Sumqayıt</option>
+            </datalist>
+        </div>
+        <div>
+            Bildiyi dil:
+            <label><input type="checkbox" />EN</label>
+            <label><input type="checkbox" />TR</label>
+            <label><input type="checkbox" />FR</label>
+            <label><input type="checkbox" />RU</label>
+        </div>
+        <div>
+            Afrikada vəzyət necədir: Pis <input type="range" /> Zordur
+        </div>
+        <div>
+            Doğum iliniz: <input type="date">
+        </div>
+        <div>
+            Ətraflı: <br />
+            <textarea cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Daxil edin" />
+        <input type="reset" value="Təmizlə" />
+    </form>
+</body>
+
+</html>

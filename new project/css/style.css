@@ -1,0 +1,47 @@
+.container{width: 1150px; margin: 0 auto;}
+
+.card-header {
+    text-align: center;
+    align-items: center;
+}
+.card-header span{
+    color: #4986fc;
+    font: 800 11px arial;
+    display: block;
+    margin-bottom: 15px;
+}
+.all-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-1 img{
+    width: 350px;
+    height: 300px;
+}
+.card-2 img{
+    width: 350px;
+    height: 300px;
+}
+.card-3 img{
+    width: 350px;
+    height: 300px;
+}
+
+.card-4 img{
+    width: 350px;
+    height: 300px;
+}
+
+.card-5 img{
+    width: 350px;
+    height: 300px;
+}
+
+.card-6  img{
+    width: 350px;
+    height: 300px;
+}
+
+

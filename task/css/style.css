@@ -1,0 +1,58 @@
+body {
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 110vh;
+    background: url("../img/pattern-background-mobile.svg") center top no-repeat;
+    background-size: contain;
+}
+.card {
+    width: 90%;
+    background: #fff;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1em auto;
+    box-shadow: 0 0.5em 1em rgb(182, 169, 169);
+}
+.card header {
+    width: 100%;
+}
+.header-image {
+    width: 100%;
+    border-radius: 1.5em 1.5em 0 0;
+}
+.container-2 {
+    margin: 0.5em 1.5em;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading,
+.text {
+    text-align: center;
+}
+.heading {
+    font: 900 1.7em arial;
+    color: #00008b;
+    padding: 18px;
+}
+.text {
+    line-height: 35px;
+    color: rgb(48, 48, 48);
+}
+.container-3 {
+    background: #d5ffff93;
+    margin: 20px 10px 20px 10px;
+    padding: 30px;
+    border-radius: 10px;
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}

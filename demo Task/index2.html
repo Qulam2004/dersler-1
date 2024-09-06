@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <title>Inputs types</title>
+</head>
+
+<body>
+    <h2>Registration form:</h2>
+    <form method="POST">
+        <div>Ad soyad: <input type="text" /></div>
+        <div>Tevellud: <input type="number" min="1990" max="2010" value="2000" /></div>
+        <fieldset>
+            <legend>Cinsiyyet:</legend>
+            <label><input name="sex" type="radio" />Kisi</label>
+            <label><input name="sex" type="radio" />Qadin</label>
+            <label><input name="sex" type="radio" />Her ikisi</label>
+        </fieldset>
+        <div>
+            Dogum yeri:
+            <select>
+                <option>Turkiye</option>
+                <option selected="selected">Azerbaycan</option>
+                <option>Fransa</option>
+                <option>Italia</option>
+            </select>
+        </div>
+        <div>
+            Yasayis yeri: <input list="city" />
+            <datalist id="city">
+                <option>Baki</option>
+                <option>Susa</option>
+                <option>Gence</option>
+                <option>Sumqayit</option>
+            </datalist>
+        </div>
+        <div>
+            Bildiyi dil:
+            <label><input type="checkbox" />en</label>
+            <label><input type="checkbox" />ru</label>
+            <label><input type="checkbox" />fr</label>
+            <label><input type="checkbox" />tr</label>
+        </div>
+        <div>
+            Kef-hal: Pis<input type="range" />Yaxsi
+        </div>
+        <div>
+            Ad gunu: <input type="date" />
+        </div>
+        <div>
+            Sekil: <input type="file" />
+        </div>
+        <div>
+            Etrafli:<br />
+            <textarea cols="50" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Daxil ol">
+        <input type="reset" value="Sifirla">
+    </form>
+</body>
+
+</html>

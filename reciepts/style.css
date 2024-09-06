@@ -1,0 +1,78 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 25px 150px;
+}
+
+#titleImg {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 400px;
+}
+
+#titleImg img {
+    width: 100%;
+    height: 450px;
+}
+
+h1 {
+    font: italic 900 60px small-caption;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+div h2,h3 {
+    padding: 10px 0px;
+    font: italic 900 30px small-caption;
+}
+
+li {
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+}
+
+ul li::marker{
+    color: rgb(161,90,90);
+}
+
+ol li::marker{
+    color: rgb(233, 72, 72);
+}
+
+#ingredients,#instructions {
+    padding-bottom: 30px;
+    border-bottom: 2px dashed rgb(0, 0, 0);
+}
+
+p {
+    font-size: 16px;
+}
+
+#nutrition p{
+    font-size: 20px;
+    color: gray;
+}
+
+table {
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 23%;
+}
+tr {
+    border-bottom: 1px solid rgb(202,199,199);
+}
+
+td {
+    padding: 20px;
+    font-size: 20px;
+}
+
+td:first-child {
+    color: brown;
+    font-weight: 900;
+}
